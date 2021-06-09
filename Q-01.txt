@@ -1,0 +1,19 @@
+PS C:\Git\SelleniumWD> git clone git@github.com:SeleniumHQ/selenium.git
+Cloning into 'selenium'...
+Warning: Permanently added the RSA host key for IP address '140.82.121.3' to the list of known hosts.
+remote: Enumerating objects: 433969, done.
+remote: Counting objects: 100% (2978/2978), done.
+remote: Compressing objects: 100% (1426/1426), done.
+Remote: Total 433969 (delta 1551), reused 2569 (delta 1281), pack-reused 430991 eceiving objects: 100% (433969/433969), 1.82 GiB | 2.45 MiB/s
+eceiving objects: 100% (433969/433969), 1.82 GiB | 2.36 MiB/s, done.
+Resolving deltas: 100% (283011/283011), done.
+Updating files: 100% (5935/5935), done.
+PS C:\Git\SelleniumWD> dir
+
+    Directory: C:\Git\SelleniumWD
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          09/06/2021    22:22                selenium
+
+

@@ -1,0 +1,8 @@
+PS C:\Git\Appium> git clone git@github.com:appium/appium.git
+Cloning into 'appium'...
+remote: Enumerating objects: 60120, done.
+remote: Counting objects: 100% (6055/6055), done.
+remote: Compressing objects: 100% (2048/2048), done.
+remote: Total 60120 (delta 4058), reused 5884 (delta 3959), pack-reused 54065
+Receiving objects: 100% (60120/60120), 91.35 MiB | 3.69 MiB/s, done.
+Resolving deltas: 100% (39761/39761), done.
