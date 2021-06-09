@@ -1,0 +1,77 @@
+
+PS C:\Git\DevOps> New-Item -Type File -Name 2Bdeleted -Value 'blabla'
+
+    Directory: C:\Git\DevOps
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          09/06/2021    23:17              6 2Bdeleted
+
+PS C:\Git\DevOps> git add .\2Bdeleted
+PS C:\Git\DevOps> git commit -m '09'
+[Ex7 6b6b321] 09
+ 1 file changed, 1 insertion(+)
+ create mode 100644 2Bdeleted
+PS C:\Git\DevOps> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 271 bytes | 271.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:itaymenashe/DevOps.git
+   e56106d..6b6b321  Ex7 -> Ex7
+PS C:\Git\DevOps> git status
+On branch Ex7
+Your branch is up to date with 'origin/Ex7'.
+
+nothing to commit, working tree clean
+PS C:\Git\DevOps> git log --oneline
+6b6b321 (HEAD -> Ex7, origin/Ex7) 09
+e56106d 08
+9cadbf9 07
+278aafa 06
+5745753 Merge branch 'main' of github.com:itaymenashe/DevOps into Ex7
+afd405b 05
+c55ada3 (origin/main, main) 05
+852a22a 03
+c5212bd 02
+4748252 01
+9bd5bb3 Test01
+d767f53 Initial commit
+PS C:\Git\DevOps> git reset /?
+fatal: /?: '/?' is outside repository
+PS C:\Git\DevOps> git log --oneline --graph
+* 6b6b321 (HEAD -> Ex7, origin/Ex7) 09
+* e56106d 08
+* 9cadbf9 07
+* 278aafa 06
+*   5745753 Merge branch 'main' of github.com:itaymenashe/DevOps into Ex7
+|\
+| * c55ada3 (origin/main, main) 05
+| * d767f53 Initial commit
+* afd405b 05
+* 852a22a 03
+* c5212bd 02
+* 4748252 01
+* 9bd5bb3 Test01
+PS C:\Git\DevOps> git reset --hard e56106d
+HEAD is now at e56106d 08
+PS C:\Git\DevOps> dir
+
+    Directory: C:\Git\DevOps
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          09/06/2021    22:54            897 Q-01.txt
+-a---          09/06/2021    22:54            430 Q-02.txt
+-a---          09/06/2021    22:54             13 Q-03.py
+-a---          09/06/2021    22:54             69 Q-04.txt
+-a---          09/06/2021    23:08           6206 Q-05.txt
+-a---          09/06/2021    23:15            269 Q-06.txt
+-a---          09/06/2021    22:54              8 README.md
+-a---          09/06/2021    23:01              8 test.txt
+
+PS C:\Git\DevOps>
+
