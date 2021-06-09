@@ -1,0 +1,12 @@
+
+PS C:\Git\DevOps> git log --oneline
+9cadbf9 (HEAD -> Ex7) 07
+278aafa (origin/Ex7) 06
+5745753 Merge branch 'main' of github.com:itaymenashe/DevOps into Ex7
+afd405b 05
+c55ada3 (origin/main, main) 05
+852a22a 03
+c5212bd 02
+4748252 01
+9bd5bb3 Test01
+d767f53 Initial commit
