@@ -1,0 +1,13 @@
+docker push itaymenashe/lesson09-python-3.8:latest <
+
+The push refers to repository [docker.io/itaymenashe/lesson09-python-3.8]
+1dba4fa800a4: Pushed
+d04c1898d21a: Pushed
+33a579e7e309: Pushed
+6df5b99eb936: Pushed
+8706e40d98be: Mounted from library/python
+038f8f1ea361: Mounted from library/python
+ac3ef569e231: Mounted from library/python
+537313a13d90: Mounted from library/python 
+764055ebc9a7: Mounted from library/python
+latest: digest: sha256:5324bb465f96180900060fd7a8e571844652f010e155169a196f048d8b28ed1f size: 2203

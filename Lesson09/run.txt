@@ -1,0 +1,3 @@
+docker run --rm -it  itaymenashe/lesson09-python-3.8:latest <
+
+root
